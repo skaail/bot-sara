@@ -9,7 +9,7 @@ const client = new Discord.Client({
   ]
 })
 
-var cringe = 0;
+var cringe = 2;
 
 const servidores = {
     'server':{
@@ -31,7 +31,10 @@ client.on("messageCreate", async(msg) => {
 
     if (msg.content == '$' + 'cringe'){
         msg.channel.send("Sara crinjou: " + cringe + ' vezes')
-        cringe += 1
+        for(let i = 0; i <= cringe; i++){
+          msg.channel.send("$cringe")
+        };
+        cringe = cringe * cringe
         
     }
 })
