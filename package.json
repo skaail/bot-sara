@@ -1,5 +1,5 @@
 {
-  "name": "sara_cringe",
+  "name": "cringe",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,18 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.5.3",
-    "@discordjs/voice": "github:discordjs/voice",
-    "ascii-table": "^0.0.9",
-    "colors": "^1.4.0",
-    "discord-music-player": "^8.0.2",
-    "discord.js": "^13.1.0",
-    "enmap": "^5.8.7",
-    "erela.js": "^2.3.3",
-    "erela.js-deezer": "^1.0.7",
-    "erela.js-spotify": "^1.2.0",
-    "libsodium-wrappers": "^0.7.9",
-    "node": "16.6.1",
-    "yt-search": "^2.10.1"
+    "discord.js": "^13.3.1"
   }
 }
